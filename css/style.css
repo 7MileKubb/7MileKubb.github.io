@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+
 body {
 	text-align: center;
 	margin: 0;
@@ -50,17 +52,17 @@ body {
 }
 
 #banner-content{width: 1170px;	margin-top: 50px; margin-left: auto; margin-right: auto;
-
 }
 
 #slogan{
-	font-style: italic;
+	font-style: medium;
 }
 
 #main-content{
 	width: 1170px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 50px;
 }
 
 #main-content p, #main-content ul {
@@ -69,7 +71,7 @@ body {
 	padding-right: 250px;
 	padding-top: 30px;
 	text-align: justify;
-	font-family: "Myriad Pro";
+	font-family: 'Droid Serif', serif;
 	letter-spacing: 1px;
 
 }
