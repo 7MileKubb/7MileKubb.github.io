@@ -56,8 +56,25 @@ body {
 	text-align: center;
 }
 
-#banner-content{width: 1170px;	margin-top: 50px; margin-left: auto; margin-right: auto;
+#banner-holder2{
+	background-image: url("http://p1.pichost.me/i/5/1282860.jpg");
+	background-size: cover;
+	height: 90px;
+	width: 100%;
+	padding-bottom: 60px;
+	text-align: center;
 }
+
+#banner-content{
+	width: auto;	
+	margin-top: 50px;
+}
+
+#banner-content img{
+	margin-top: 180px;
+	margin-right: 180px;
+}
+
 
 #slogan{
 	font-style: medium;
@@ -100,4 +117,8 @@ img{
 	padding-top: 4px;
 }
 
+footer{
+	padding-left:320px;
+	padding-right: 320px;
+}
 
