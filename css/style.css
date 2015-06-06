@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	background-repeat: no-repeat;
 	font-family: "Futura";
+	background-color: #fef8f4;
 }
 
 #header{
@@ -36,12 +37,12 @@ body {
 #nav a {
 	margin-right: 30px;
 	text-decoration: none;
-	color: #fff;
+	color: #fef8f4;
 	font-size: .8em;
 }
 
 #nav a:hover {
-	color: #ADCFDD;
+	color: #89a5bc;
 	font-size: .8em;
 }
 
@@ -82,7 +83,7 @@ body {
 
 #banner-buttons a{
 	color: white;
-	border: 2px solid #fff;
+	border: 2px solid #fef8f4;
 	text-decoration: none;
 	padding-top: 10px;
 	padding-left: 20px;
@@ -93,7 +94,7 @@ body {
 }
 
 #banner-buttons a:hover {
-	background-color: white;
+	background-color: #fef8f4;
 	color: black;
 	text-transform: uppercase;
 }
@@ -115,12 +116,12 @@ body {
 
 #banner-footer {
 	height: 50px;
-	background-color: gray;
+	background-color: #111923;
 	margin-bottom: 75px;
 }
 
 hr {
-	color: black;
+	color: #fef8f4;
 	width: 60%;
 }
 
@@ -131,6 +132,7 @@ hr {
 
 #slogan{
 	letter-spacing: .025em;
+	color: #111923;
 }
 
 p {
@@ -143,6 +145,7 @@ p {
 	text-align: justify;
 	font-family: 'Droid Serif', serif;
 	letter-spacing: .05em;
+	color: #111923;
 }
 
 #main-content p{
@@ -162,6 +165,7 @@ img{
 	padding-top: 4px;
 }
 
+
 #contact {
 	padding-bottom: 25px;
 }
@@ -177,7 +181,7 @@ footer{
 }
 
 footer p{
-	color: white;
+	color: #fef8f4;
 	text-align: center;
 	margin-bottom: 0px;
 }
