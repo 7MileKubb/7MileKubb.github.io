@@ -151,6 +151,19 @@ a {
 	text-align: center;
 }
 
+#RUNAobjectivebar {
+	background-color: #f1f1f1;
+	color: #8ECEC6;
+}
+
+#AAobjectivebar {
+	background-color: #211A45;
+}
+
+#AAstrategy {
+	background-color: #F4D024;
+}
+
 .Section1 {
 	padding-left: 150px;
 	padding-right: 150px;
@@ -176,13 +189,16 @@ a {
 
 .thinking {
 	padding-left: 150px;
-	padding-right: 50px;
 	text-align: right;
 }
 
 .thinking  p {
 	font-family: "San Francisco";
 	line-height: 20px;
+}
+
+#RUNAthinking h3 {
+	color: #8ECEC6;
 }
 
 .Subheaders h3 {
@@ -210,19 +226,24 @@ a {
 	text-align: left;
 }
 
+#resume img {
+	margin-left: 33.33%;
+	margin-top: 150px;
+}
+
 .parallax-window {
 	min-height: 600px;
 	background: transparent;
 }
 
 .infofooter {
-	margin-top: 250px;
+	margin-top: 100px;
 	text-align: center;
 	background-color: #f1f1f1;
 	padding-left: 30%;
 	padding-right: 30%;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 
