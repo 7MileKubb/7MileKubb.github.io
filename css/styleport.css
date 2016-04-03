@@ -1,3 +1,7 @@
+@font-face {
+	font-family: "Bebas Kai";
+	url('Fonts/BebasKai-Regular.otf');
+}
 body {
 	font-family: "Bebas Kai";
 }
@@ -12,6 +16,7 @@ a {
 }
 
 #landing {
+	color: white;
 	background-image: url("http://p1.pichost.me/i/5/1282860.jpg");
 	background-size: cover;
 	height: 600px;
@@ -21,26 +26,63 @@ a {
 }
 
 #landing h1 {
+	text-align: center;
 	font-size: 5em;
-	padding-top: 265px;
-	letter-spacing: 1.2px;
+	padding-top: 215px;
+	letter-spacing: 2px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#landing h2 {
+	font-family: "Oswald";
+	font-weight: 200;
+	letter-spacing: .5px;
+	margin-top: 15px;
+	margin-bottom: 50px;
 }
 
 #landing a {
 	text-decoration: none;
-	color: white;
-	border: 2px solid #ffffff;
+	background: transparent;
+	color: #ffffff;
 	padding-top: 10px;
+	border: solid 2px #ffffff;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 10px;
+	margin-bottom: 50px;
 	font-size: .75em;
 }
 
 #landing a:hover {
 	background-color: #ffffff;
-	color: #000000;
+	color: black;
+}
+
+#garbage {
+	background: transparent;
+	color: black;
+	height: 700px;
+	width: 100%;
+}
+
+#garbage h3 {
+	margin-top: 0;
+	padding-top: 100px;
+	font-size: 3em;
+	padding-left: 600px;
+	padding-right: 150px;
+}
+
+#garbage p {
+	line-height: 1.5em;
+	font-family: "Oswald";
+	font-weight: 300;
+	text-align: left;
+	font-size: .85em;
+	padding-left: 600px;
+	padding-right: 150px;
 }
 
 #homepagelogo {
@@ -93,7 +135,7 @@ a {
 
 #header img {
 	margin-top: 25px;
-	margin-left:30px;
+	margin-left: 30px;
 }
 
 #header a {
@@ -125,86 +167,512 @@ a {
 }
 
 #portsec {
-	height: 640px; 
+	height: 600px; 
 	background-color: white;
 	padding-top: 10px;
 }
 
 #portpieces {
-	margin-top: 125px;
+	margin-top: 100px;
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
-#portpieces img {
+article {
 	width: 32.5%;
-	border: solid 1px #ffffff;
-	float: middle;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	font-family: "Oswald";
+	padding-right: 5px;
 }
 
+article img {
+	width: 100%;
+	height: 100%;
+}
 
+.title h2 {
+	font-size: 1.2em;
+	margin-bottom: 0;
+	margin-top: 12%;
+}
+
+.title p {
+	font-size: 1em;
+	font-weight: 200;
+}
+
+.title hr {
+	width: 45%;
+}
+
+.title {
+  visibility: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  z-index: 20;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left:0;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+/*When hover on div show the overlay as well as th eoverlay text (p)*/
+article:hover .title, article:hover .title p {
+ visibility: visible;
+ opacity: .92;
+ cursor: pointer;
+}
+
+/*This is where the indivdual projects start*/
+
+.parallax-window {
+	min-height: 600px;
+	background: transparent;
+}
 .objectivebar {
+	font-family: "Oswald";
 	padding-top: 45px;
 	padding-bottom: 45px;
-	background-color: black;
-	color: white;
-	text-align: center;
+	background-color: #f1f1f1;
+	color: #000000;
+	text-align: left;
+	padding-left: 10%;
 }
 
+.objectivebar h1 {
+	font-weight: 600;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.objectivebar h3 {
+	margin-top: 0;
+	font-size: .9em;
+	font-weight: 200;
+}
+
+.objectivebar p {
+	margin-top: 0;
+	font-weight: 200;
+	font-size: .85em;
+}
+
+.objectiveheader {
+	width: 25%;
+	float: left;
+}
+
+.objectiveheader h3 {
+	font-style: italic;
+}
+
+.objectiveoverview {
+	margin-top: 5px;
+	width: 40%;
+	float: right;
+	padding-right: 150px;
+}
+
+.objectiveoverview h3 {
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.objectiveoverview p {
+	margin-bottom: 15px;
+}
+
+/*Individualized objective bars start*/
 #RUNAobjectivebar {
-	background-color: #f1f1f1;
-	color: #8ECEC6;
+	height: 245px;
 }
 
 #AAobjectivebar {
-	background-color: #211A45;
+	height: 225px;
 }
 
-#AAstrategy {
-	background-color: #F4D024;
+#JIFobjectivebar {
+	height: 245px;
 }
+
+#DOWNYobjectivebar {
+	height: 225px;
+}
+
+#TRIBECAobjectivebar {
+	height: 225px;
+}
+
+#KALLESobjectivebar {
+	height: 245px;
+}
+
+#EATSAobjectivebar {
+	height: 245px;
+}
+
+#TRICYCLEobjectivebar {
+	height: 245px;
+}
+
+#FENCINGobjectivebar {
+	height: 245px;
+}
+/*Individualized objective bars end*/
+/*Section1 starts*/
 
 .Section1 {
-	padding-left: 150px;
-	padding-right: 150px;
-	margin-bottom: 100px;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 200px;
 }
 
-.Section1img {
-	height: 150px;
-	float: right;
-	padding-right: 200px;
+.Section1 h1 {
+	font-size: 1.8em;
+}
+
+.Section1 h3 {
+	font-family: "Oswald";
+	font-size: 1em;
 }
 
 .opportunity {
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	text-align: left;
 }
 
 .opportunity p {
-	font-family: "San Francisco";
-	line-height: 20px;
+	font-family: "Oswald";
+	font-weight: 300;
+	line-height: 25px;
 }
 
 .thinking {
-	padding-left: 150px;
 	text-align: right;
 }
 
 .thinking  p {
-	font-family: "San Francisco";
-	line-height: 20px;
+	font-family: "Oswald";
+	font-weight: 300;
+	line-height: 25px;
 }
 
-#RUNAthinking h3 {
-	color: #8ECEC6;
+#RUNAtask img {
+	height: 150px;
+	float: right;
+	padding-right: 100px;
 }
 
-.Subheaders h3 {
+#AAtask img {
+	float: right;
+	padding-top: 65px;
+}
+
+#AAproduct img {
+	float: left;
+}
+
+#AAtarget img {
+	float: right;
+}
+
+#AAthinking img {
+	float: left;
+}
+
+#JIFproblem img {
+	float: right;
+	padding-right: 100px;
+}
+
+#JIFproblem h3 {
+	color: #DA3C3E;
+}
+
+#JIFopportunity h3 {
+	color: #416CA7;
+}
+
+#JIFthinking h3 {
+	color: #42AC47;
+}
+
+#DOWNYtask img {
+	float: right;
+	padding-top: 15px;
+	padding-right: 100px;
+}
+
+#DOWNYsegment1 img {
+	float: left;
+}
+
+#DOWNYsegment2 img {
+	float: right;
+}
+
+#DOWNYopportunity img {
+	float: left;
+}
+
+#DOWNYstrategy {
+	background-color: #f1f1f1;
+}
+
+#JIFstrategy {
+	background-color: #AD855F;
+}
+
+#AAcreativeconcept {
+	height: 225px;
+	background-color: #F4D024;
+}
+
+#KALLEScreativeconcept {
+	height: 225px;
+	background-color: #BAD6E2;
+}
+
+/*This is where the creative begins*/
+
+.creative {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 	text-align: left;
-	padding-top: 50px;
 }
+
+.creative h2 {
+	font-size: 1.2em;
+}
+
+.creative h3 {
+	padding-top: 75px;
+}
+
+.creativeexplanation1 {
+	width: 100%;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	text-align: left;
+	font-family: "Oswald";
+	font-weight: 200;
+}
+
+.creativeexplanation1-text {
+	width: 70%;
+	padding-right: 25%;
+}
+
+.creativeexplanation1 p {
+	line-height: 25px;
+}
+
+.creativeexplanation1-images {
+	float: right;
+	width: 30%;
+}
+
+.creativeexplanation1-images img {
+	width: 100%;
+}
+
+/*Creative */
+/*Auntie Anne's Branding Beginning*/
+
+#AAtagline {
+	width: 100%;
+}
+
+#AAtagline img {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#AAbranding {
+	padding-top: 0px;
+}
+
+#AAbranding-logos {
+	width: 35%;
+	float: right;
+}
+
+#AAbranding-logos img {
+	width: 100%;
+}
+
+#AAbranding-packaging {
+	width: 80%;
+}
+
+#AApackaging-group {
+	width: 100%;
+}
+
+#AApackaging-group img {
+	width: 30%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+/*Auntie Anne's Branding End*/
+/*Auntie Anne's Store Beginning*/
+
+#AAstore-inside img {
+	width: 100%;
+}
+
+#AAstore-images {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#AAstore-images img {
+	width: 100%;
+}
+
+/*Auntie Anne's Store End*/
+/*Auntie Anne's Campaign Beginning*/
+
+#AAcampaign-print {
+	width: 100%;
+	padding-top: 2.5%;
+	padding-bottom: 5%;
+}
+
+#AAcampaign-group {
+	width: 94%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#AAcampaign-group img{
+	width: 32%;
+	padding-left: .5%;
+	padding-right: .5%;
+}
+
+#AAcampaign-ooh {
+	width: 94%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#AAcampaign-ooh img {
+	width: 99%;
+	padding-left: .5%;
+	padding-right: .5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+/*Auntie Anne's Campaign End*/
+/*Auntie Anne's Branded Content Beginning*/
+
+#AAbrandedcontent-images {
+	width: 98%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+#AAbrandedcontent-images img {
+	width: 48%;
+	padding-left: .5%;
+	padding-right: .5%;
+	padding-top: .5%;
+	padding-bottom: .5%;
+}
+
+/*Team to the footer section*/
+
+.team li {
+	list-style: none;
+}
+
+.team h3 {
+	margin-top: 0px;
+}
+
+.team ul {
+	padding-bottom: 25px;
+}
+
+.bottomnav {
+	width: 100%;
+	padding-top: 100px;
+}
+
+.bottomnavcontainer {
+	width: 30%;
+	padding-left: 35%;
+	padding-right: 35%;
+}
+
+.bottomnavcontainer-buttons {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: 0;
+}
+
+#contactcontainer {
+	background-color: #000000;
+	margin-top: 50px;
+	padding-top: 15px;
+	font-family: "Oswald";
+	font-weight: 200;
+	font-size: .8em;
+}
+
+#contactcontainer ul {
+	margin-bottom: 0;
+}
+
+#contactcontainer li {
+	color: white;
+	list-style: none;
+	text-align: left;
+}
+
+#contactcontainer a {
+	color: white;
+}
+
+.infofooter {
+	font-family: "Oswald";
+	font-size: .75em;
+	font-weight: 200;
+	text-align: right;
+	background-color: black;
+	color: white;
+	margin-top: 0;
+	padding-bottom: 10px;
+	padding-right: 40px;
+}
+
+.infofooter a {
+	color: white;
+}
+
+.infofooter p {
+	margin-top: 0;
+}
+
+/*About me stuff*/
 
 #aboutmeblurb img {
 	margin-top: 150px;
@@ -213,17 +681,20 @@ a {
 }
 
 #aboutmeblurb h3 {
-	margin-left: 100px;
-	margin-top: 0px;
 	padding-top: 150px;
 	font-size: 1.5em;
+	padding-left: 600px;
+	padding-right: 150px;
 }
+
 #aboutmeblurb p {
-	margin-top: 0px;
-	padding-top: 25px;
 	line-height: 1.5em;
-	font-family: helvetica;
+	font-family: "Oswald";
+	font-weight: 300;
 	text-align: left;
+	font-size: .85em;
+	padding-left: 600px;
+	padding-right: 150px;
 }
 
 #resume img {
@@ -231,21 +702,4 @@ a {
 	margin-left: 33.33%;
 
 }
-
-.parallax-window {
-	min-height: 600px;
-	background: transparent;
-}
-
-.infofooter {
-	margin-top: 100px;
-	text-align: center;
-	background-color: #f1f1f1;
-	padding-left: 30%;
-	padding-right: 30%;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-
 
