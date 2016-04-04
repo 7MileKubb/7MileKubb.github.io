@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Bebas Kai";
-	src: url('BebasKai-Regular.otf');
+	src: url("Website Fonts/bebas_kai/BebasKai-Regular.otf");
 }
 body {
 	font-family: "Bebas Kai";
@@ -42,7 +42,7 @@ a {
 	margin-bottom: 50px;
 }
 
-#landing a {
+.buttons a {
 	text-decoration: none;
 	background: transparent;
 	color: #ffffff;
@@ -55,9 +55,20 @@ a {
 	font-size: .75em;
 }
 
-#landing a:hover {
+.buttons a:hover {
 	background-color: #ffffff;
 	color: black;
+}
+
+#homepagearrow {
+	margin-top: 150px;
+	width: 100%;
+}
+
+#homepagearrow a {
+	margin-left: 45%;
+	margin-right: 45%;
+	width: 10%;
 }
 
 #garbage {
@@ -87,7 +98,7 @@ a {
 
 #homepagelogo {
 	float: left;
-	margin-top: 35px;
+	margin-top: 22px;
 	margin-left: 35px;
 }
 
@@ -130,12 +141,7 @@ a {
 	position: fixed;
 	width: 100%;
 	z-index: 900;
-	height: 90px;
-}
-
-#header img {
-	margin-top: 25px;
-	margin-left: 30px;
+	height: 85px;
 }
 
 #header a {
@@ -147,13 +153,27 @@ a {
 	color: #B3F7FF;
 }
 
+#buttonlogo {
+	width: 30%;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#buttonlogo img {
+	margin-bottom: -8px;
+}
+
+#buttonlogo a {
+	height: 90px;
+}
+
 #nav {
 	position: fixed;
 	top: 30px;
-	right: 50px;
+	right: 45px;
 	text-align: right;
 	z-index: 1000;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 }
 
 #nav a {
@@ -459,6 +479,18 @@ article:hover .title, article:hover .title p {
 
 .creative h3 {
 	padding-top: 75px;
+}
+
+.videocontainer {
+	width: 50%;
+	padding-right: 25%;
+	padding-left: 25%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.videocontainer iframe {
+	width: 100%;
 }
 
 .creativeexplanation1 {
