@@ -1,9 +1,9 @@
 @font-face {
 	font-family: "Bebas Kai";
-	src: url("BebasKai-Regular.otf") format("opentype");
+	src: url("WebsiteFonts/bebas_kai/BebasKai-Regular.otf") format("opentype");
 }
 body {
-	font-family: "Oswald";
+	font-family: "Bebas Kai";
 }
 
 a {
@@ -61,7 +61,7 @@ a {
 }
 
 #homepagearrow {
-	margin-top: 150px;
+	margin-top: 100px;
 	width: 100%;
 }
 
@@ -80,6 +80,7 @@ a {
 
 #garbage h3 {
 	margin-top: 0;
+	margin-bottom: 25px;
 	padding-top: 100px;
 	font-size: 3em;
 	padding-left: 600px;
@@ -103,8 +104,8 @@ a {
 }
 
 #homepageheader {
-	margin-top: 35px;
-	margin-left: 25px;
+	margin-top: 45px;
+	margin-left: 10px;
 	float: left;
 }
 
@@ -120,7 +121,7 @@ a {
 }
 
 #homepagenav{
-	margin-top: 35px;
+	margin-top: 45px;
 	margin-right: 25px;
 	float: right;
 }
@@ -141,7 +142,7 @@ a {
 	position: fixed;
 	width: 100%;
 	z-index: 900;
-	height: 85px;
+	height: 110px;
 }
 
 #header a {
@@ -160,16 +161,17 @@ a {
 }
 
 #buttonlogo img {
-	margin-bottom: -8px;
+	margin-bottom: -15px;
 }
 
 #buttonlogo a {
 	height: 90px;
+
 }
 
 #nav {
 	position: fixed;
-	top: 30px;
+	top: 45px;
 	right: 45px;
 	text-align: right;
 	z-index: 1000;
@@ -317,7 +319,7 @@ article:hover .title, article:hover .title p {
 }
 
 #AAobjectivebar {
-	height: 225px;
+	height: 285px;
 }
 
 #JIFobjectivebar {
@@ -347,6 +349,16 @@ article:hover .title, article:hover .title p {
 #FENCINGobjectivebar {
 	height: 245px;
 }
+
+.spacingbar {
+	height: 50px;
+	text-align: center;
+}
+
+.spacingbar h3 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 /*Individualized objective bars end*/
 /*Section1 starts*/
 
@@ -354,22 +366,33 @@ article:hover .title, article:hover .title p {
 	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
-	margin-bottom: 200px;
+	margin-bottom: 150px;
 }
 
-.Section1 h1 {
-	font-size: 1.8em;
+.Section1 h2 {
+	font-family: "Oswald";
+	font-size: 1.3em;
+	padding-top: 50px;
 }
 
 .Section1 h3 {
 	font-family: "Oswald";
 	font-size: 1em;
+	margin-bottom: 0;
+}
+
+.Section1 p {
+	margin-top: 0;
 }
 
 .opportunity {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 85px;
+	padding-bottom: 85px;
 	text-align: left;
+}
+
+.opportunity img {
+	float: right;
 }
 
 .opportunity p {
@@ -382,86 +405,140 @@ article:hover .title, article:hover .title p {
 	text-align: right;
 }
 
+.thinking img {
+	float: left;
+}
+
 .thinking  p {
 	font-family: "Oswald";
 	font-weight: 300;
 	line-height: 25px;
 }
 
-#RUNAtask img {
-	height: 150px;
-	float: right;
-	padding-right: 100px;
+#AAtask img {
+	padding-top: 85px;
 }
 
-#AAtask img {
-	float: right;
+#KALLEStask img {
 	padding-top: 65px;
 }
 
-#AAproduct img {
-	float: left;
+#RUNAtask img {
+	height: 150px;
+	padding-top: 95px;
+	padding-right: 75px;
 }
 
-#AAtarget img {
-	float: right;
+#TRIBECAtask img {
+	padding-top: 60px;
 }
 
-#AAthinking img {
-	float: left;
-}
-
-#JIFproblem img {
-	float: right;
+#DOWNYtask img {
+	padding-top: 60px;
 	padding-right: 100px;
 }
 
-#JIFproblem h3 {
+#JIFtask img {
+	padding-top: 55px;
+}
+
+#JIFtask h3 {
 	color: #DA3C3E;
 }
 
-#JIFopportunity h3 {
+#AAproduct img {
+	padding-top: 35px;
+}
+
+#KALLESproduct img {
+	padding-top: 20px;
+}
+
+#RUNAproduct img {
+	padding-top: 40px;
+}
+
+#TRIBECAproduct img {
+	padding-top: 40px;
+}
+
+#DOWNYsegment1 img {
+	padding-top: 35px;
+}
+
+#JIFproduct h3 {
 	color: #416CA7;
+}
+
+#AAtarget img {
+	padding-top: 60px;
+}
+
+#KALLEStarget img {
+	padding-top: 40px;
+}
+
+#RUNAtarget img {
+	padding-top: 60px;
+}
+
+#TRIBECAtarget img {
+	padding-top: 60px;
+}
+
+#DOWNYsegment2 img {
+	padding-top: 45px;
+}
+
+#AAthinking img {
+	padding-top: 55px;
+}
+
+#KALLESthinking img {
+	padding-top: 25px;
+	padding-left: 75px;
+}
+
+#RUNAculture img {
+	padding-top: 20px;
+}
+
+#TRIBECAculture img {
+	padding-top: 35px;
+}
+
+#DOWNYopportunity img {
+	padding-top: 35px;
 }
 
 #JIFthinking h3 {
 	color: #42AC47;
 }
 
-#DOWNYtask img {
-	float: right;
-	padding-top: 15px;
-	padding-right: 100px;
-}
-
-#DOWNYsegment1 img {
-	float: left;
-}
-
-#DOWNYsegment2 img {
-	float: right;
-}
-
-#DOWNYopportunity img {
-	float: left;
-}
-
-#DOWNYstrategy {
-	background-color: #f1f1f1;
-}
-
-#JIFstrategy {
-	background-color: #AD855F;
-}
-
 #AAcreativeconcept {
-	height: 225px;
+	height: 245px;
 	background-color: #F4D024;
 }
 
 #KALLEScreativeconcept {
-	height: 225px;
+	height: 200px;
 	background-color: #BAD6E2;
+}
+
+#RUNAcreativeconcept {
+	height: 245px;
+	background-color: #9ED6D1;
+}
+
+#TRIBECAcreativeconcept {
+	height: 225px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#JIFcreativeconcept {
+	height: 225px;
+	background-color: #AD855F;
 }
 
 /*This is where the creative begins*/
@@ -481,22 +558,10 @@ article:hover .title, article:hover .title p {
 	padding-top: 75px;
 }
 
-.videocontainer {
-	width: 50%;
-	padding-right: 25%;
-	padding-left: 25%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.videocontainer iframe {
-	width: 100%;
-}
-
 .creativeexplanation1 {
 	width: 100%;
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: left;
 	font-family: "Oswald";
 	font-weight: 200;
@@ -516,22 +581,25 @@ article:hover .title, article:hover .title p {
 	width: 30%;
 }
 
+#RUNAcreativeexplanation1-images {
+	float: right;
+	width: 5%;
+}
+
+#JIFcreativeexplanation-1images {
+	padding-top: 45px;
+}
+
 .creativeexplanation1-images img {
 	width: 100%;
 }
 
+#tribecastageimage {
+	margin-top: 75px;
+}
+
 /*Creative */
-/*Auntie Anne's Branding Beginning*/
-
-#AAtagline {
-	width: 100%;
-}
-
-#AAtagline img {
-	width: 80%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
+/*Branding Beginning*/
 
 #AAbranding {
 	padding-top: 0px;
@@ -556,10 +624,10 @@ article:hover .title, article:hover .title p {
 
 #AApackaging-group img {
 	width: 30%;
-	padding-left: 3%;
 	padding-right: 3%;
+	padding-top: 100px;
 }
-/*Auntie Anne's Branding End*/
+/*Branding End*/
 /*Auntie Anne's Store Beginning*/
 
 #AAstore-inside img {
@@ -581,7 +649,7 @@ article:hover .title, article:hover .title p {
 
 #AAcampaign-print {
 	width: 100%;
-	padding-top: 2.5%;
+	padding-top: 5%;
 	padding-bottom: 5%;
 }
 
@@ -630,9 +698,16 @@ article:hover .title, article:hover .title p {
 }
 
 /*Team to the footer section*/
+.team {
+	margin-top: 50px;
+}
 
 .team li {
 	list-style: none;
+}
+
+.team h2 {
+	margin-top: 35px;
 }
 
 .team h3 {
@@ -706,10 +781,8 @@ article:hover .title, article:hover .title p {
 
 /*About me stuff*/
 
-#aboutmeblurb img {
-	margin-top: 150px;
-	margin-left: 150px;
-	float: left;
+#aboutmeblurb {
+	width: 100%;
 }
 
 #aboutmeblurb h3 {
