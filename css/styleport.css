@@ -26,6 +26,7 @@ a {
 }
 
 #landing h1 {
+	font-family: "Bebas Kai";
 	text-align: center;
 	font-size: 5em;
 	padding-top: 215px;
@@ -35,6 +36,8 @@ a {
 }
 
 #landing h2 {
+	font-family: "Oswald";
+	font-weight: 200;
 	letter-spacing: .5px;
 	margin-top: 15px;
 	margin-bottom: 50px;
