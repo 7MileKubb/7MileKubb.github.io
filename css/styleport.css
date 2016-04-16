@@ -426,7 +426,7 @@ article:hover .title, article:hover .title p {
 
 #RUNAtask img {
 	height: 150px;
-	padding-top: 85px;
+	padding-top: 95px;
 	padding-right: 65px;
 }
 
@@ -485,7 +485,7 @@ article:hover .title, article:hover .title p {
 }
 
 #RUNAtarget img {
-	padding-top: 45px;
+	padding-top: 47px;
 }
 
 #AAtarget img {
@@ -510,7 +510,11 @@ article:hover .title, article:hover .title p {
 }
 
 #RUNAculture img {
-	padding-top: 40px;
+	padding-top: 90px;
+}
+
+#RUNAculture {
+	padding-bottom: 0px;
 }
 
 #TRIBECAculture img {
