@@ -315,6 +315,10 @@ article:hover .title, article:hover .title p {
 }
 
 /*Individualized objective bars start*/
+#KALLESobjectivebar {
+	height: 285px;
+}
+
 #RUNAobjectivebar {
 	height: 245px;
 }
@@ -324,7 +328,7 @@ article:hover .title, article:hover .title p {
 }
 
 #JIFobjectivebar {
-	height: 245px;
+	height: 225px;
 }
 
 #DOWNYobjectivebar {
@@ -335,12 +339,8 @@ article:hover .title, article:hover .title p {
 	height: 225px;
 }
 
-#KALLESobjectivebar {
-	height: 245px;
-}
-
 #EATSAobjectivebar {
-	height: 245px;
+	height: 120px;
 }
 
 #TRICYCLEobjectivebar {
@@ -416,18 +416,22 @@ article:hover .title, article:hover .title p {
 	line-height: 25px;
 }
 
-#AAtask img {
-	padding-top: 85px;
-}
-
 #KALLEStask img {
-	padding-top: 65px;
+	padding-top: 75px;
 }
 
 #RUNAtask img {
 	height: 150px;
 	padding-top: 95px;
 	padding-right: 75px;
+}
+
+#EATSAtask img {
+	padding-top: 115px;
+}
+
+#AAtask img {
+	padding-top: 85px;
 }
 
 #TRIBECAtask img {
@@ -447,16 +451,16 @@ article:hover .title, article:hover .title p {
 	color: #DA3C3E;
 }
 
-#AAproduct img {
-	padding-top: 35px;
-}
-
 #KALLESproduct img {
-	padding-top: 20px;
+	padding-top: 35px;
 }
 
 #RUNAproduct img {
 	padding-top: 40px;
+}
+
+#AAproduct img {
+	padding-top: 35px;
 }
 
 #TRIBECAproduct img {
@@ -467,19 +471,24 @@ article:hover .title, article:hover .title p {
 	padding-top: 35px;
 }
 
+#JIFproduct img {
+	padding-left: 85px;
+	padding-top: 30px;
+}
+
 #JIFproduct h3 {
 	color: #416CA7;
 }
 
-#AAtarget img {
+#KALLEStarget img {
 	padding-top: 60px;
 }
 
-#KALLEStarget img {
-	padding-top: 40px;
+#RUNAtarget img {
+	padding-top: 60px;
 }
 
-#RUNAtarget img {
+#AAtarget img {
 	padding-top: 60px;
 }
 
@@ -491,12 +500,16 @@ article:hover .title, article:hover .title p {
 	padding-top: 45px;
 }
 
+#JIFthinking img {
+	padding-top: 60px;
+}
+
 #AAthinking img {
 	padding-top: 55px;
 }
 
 #KALLESthinking img {
-	padding-top: 25px;
+	padding-top: 35px;
 	padding-left: 75px;
 }
 
@@ -538,8 +551,8 @@ article:hover .title, article:hover .title p {
 }
 
 #JIFcreativeconcept {
-	height: 225px;
-	background-color: #AD855F;
+	height: 245px;
+	background-color: #FFD496;
 }
 
 /*This is where the creative begins*/
@@ -573,6 +586,10 @@ article:hover .title, article:hover .title p {
 	padding-right: 25%;
 }
 
+.creativeexplanation1 hr {
+	margin-top: 50px;
+}
+
 .creativeexplanation1 p {
 	line-height: 25px;
 }
@@ -584,7 +601,12 @@ article:hover .title, article:hover .title p {
 
 #RUNAcreativeexplanation1-images {
 	float: right;
-	width: 5%;
+	width: 15%;
+	padding-right: 100px;
+}
+
+#RUNAcreativeexplanation1-images img{
+	width: 100%;
 }
 
 #JIFcreativeexplanation-1images {
@@ -721,7 +743,7 @@ article:hover .title, article:hover .title p {
 
 .bottomnav {
 	width: 100%;
-	padding-top: 100px;
+	padding-top: 45px;
 }
 
 .bottomnavcontainer {
@@ -739,7 +761,7 @@ article:hover .title, article:hover .title p {
 
 #contactcontainer {
 	background-color: #000000;
-	margin-top: 50px;
+	margin-top: 125px;
 	padding-top: 15px;
 	font-family: "Oswald";
 	font-weight: 200;
@@ -757,6 +779,29 @@ article:hover .title, article:hover .title p {
 }
 
 #contactcontainer a {
+	color: white;
+}
+
+#contactcontainerproj {
+	background-color: #000000;
+	margin-top: 45px;
+	padding-top: 15px;
+	font-family: "Oswald";
+	font-weight: 200;
+	font-size: .8em;
+}
+
+#contactcontainerproj ul {
+	margin-bottom: 0;
+}
+
+#contactcontainerproj li {
+	color: white;
+	list-style: none;
+	text-align: left;
+}
+
+#contactcontainerproj a {
 	color: white;
 }
 
@@ -781,19 +826,35 @@ article:hover .title, article:hover .title p {
 }
 
 /*About me stuff*/
-
-#aboutmeblurb {
+#aboutmephoto img {
 	width: 100%;
 }
 
-#aboutmeblurb h3 {
-	padding-top: 150px;
-	font-size: 1.5em;
+#aboutme {
+	background: #F0DEDE;
+	color: #ffffff;
+	height: 700px;
+	width: 100%;
+	padding-top: 100px;
+}
+
+#aboutme img {
+	float: left;
+	padding-top: 135px;
+	padding-left: 115px;
+}
+
+#aboutme h3 {
+	font-family: "Cheddar Jack";
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-top: 100px;
+	font-size: 3em;
 	padding-left: 600px;
 	padding-right: 150px;
 }
 
-#aboutmeblurb p {
+#aboutme p {
 	line-height: 1.5em;
 	font-family: "Oswald";
 	font-weight: 300;
@@ -806,6 +867,5 @@ article:hover .title, article:hover .title p {
 #resume img {
 	margin-top: 100px;
 	margin-left: 33.33%;
-
 }
 
