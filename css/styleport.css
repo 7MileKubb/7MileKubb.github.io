@@ -328,7 +328,7 @@ article:hover .title, article:hover .title p {
 }
 
 #AAobjectivebar {
-	height: 285px;
+	height: 265px;
 }
 
 #TRIBECAobjectivebar {
@@ -435,7 +435,7 @@ article:hover .title, article:hover .title p {
 }
 
 #AAtask img {
-	padding-top: 85px;
+	padding-top: 95px;
 }
 
 #TRIBECAtask img {
@@ -460,7 +460,7 @@ article:hover .title, article:hover .title p {
 }
 
 #AAproduct img {
-	padding-top: 35px;
+	padding-top: 60px;
 }
 
 #TRIBECAproduct img {
@@ -489,7 +489,7 @@ article:hover .title, article:hover .title p {
 }
 
 #AAtarget img {
-	padding-top: 60px;
+	padding-top: 95px;
 }
 
 #TRIBECAtarget img {
@@ -506,7 +506,7 @@ article:hover .title, article:hover .title p {
 }
 
 #AAthinking img {
-	padding-top: 55px;
+	padding-top: 65px;
 }
 
 #RUNAculture img {
@@ -527,6 +527,10 @@ article:hover .title, article:hover .title p {
 
 #DOWNYopportunity img {
 	padding-top: 35px;
+}
+
+#JIFthinking {
+	padding-bottom: 0px;
 }
 
 #JIFthinking img {
