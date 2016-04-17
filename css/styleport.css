@@ -529,16 +529,20 @@ article:hover .title, article:hover .title p {
 	padding-top: 35px;
 }
 
-#JIFthinking {
-	padding-bottom: 0px;
-}
-
 #JIFthinking img {
 	padding-top: 60px;
 }
 
 #JIFthinking h3 {
 	color: #42AC47;
+}
+
+#JIFopportunity h3 {
+	color: #AD855F;
+}
+
+#JIFopportunity img {
+	padding-top: 55px;
 }
 
 #AAcreativeconcept {
@@ -563,8 +567,8 @@ article:hover .title, article:hover .title p {
 }
 
 #JIFcreativeconcept {
-	height: 245px;
-	background-color: #FFD496;
+	height: 265px;
+	background-color: #AD855F;
 }
 
 /*This is where the creative begins*/
