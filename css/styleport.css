@@ -442,8 +442,16 @@ article:hover .title, article:hover .title p {
 	padding-right: 65px;
 }
 
+#EATSAtask {
+	padding-bottom: 70px;
+}
+
+#EATSAtask h2 {
+	color: #E21F1C;
+}
+
 #EATSAtask img {
-	padding-top: 115px;
+	padding-top: 125px;
 }
 
 #AAtask img {
@@ -469,6 +477,18 @@ article:hover .title, article:hover .title p {
 
 #KALLESproduct img {
 	padding-top: 35px;
+}
+
+#EATSAproduct {
+	padding-bottom: 70px;
+}
+
+#EATSAproduct img {
+	padding-top: 40px;
+}
+
+#EATSAproduct h2 {
+	color: #E21F1C;
 }
 
 #AAproduct img {
@@ -500,6 +520,18 @@ article:hover .title, article:hover .title p {
 	padding-top: 47px;
 }
 
+#EATSAtarget {
+	padding-bottom: 70px;
+}
+
+#EATSAtarget h2 {
+	color: #E21F1C;
+}
+
+#EATSAtarget img {
+	padding-top: 100px;
+}
+
 #AAtarget img {
 	padding-top: 95px;
 }
@@ -515,6 +547,19 @@ article:hover .title, article:hover .title p {
 #KALLESthinking img {
 	padding-top: 35px;
 	padding-left: 75px;
+}
+
+#EATSAthinking {
+	padding-bottom: 70px;
+}
+
+#EATSAthinking h2 {
+	color: #E21F1C;
+}
+
+#EATSAthinking img {
+	padding-top: 190px;
+	padding-right: 100px;
 }
 
 #AAthinking img {
