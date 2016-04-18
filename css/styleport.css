@@ -2,6 +2,12 @@
 	font-family: "Bebas Kai";
 	src: url("WebsiteFonts/bebas_kai/BebasKai-Regular.otf") format("opentype");
 }
+
+@font-face {
+	font-family: "Cheddar Jack";
+	src: url("WebsiteFonts/cheddar_jack.ttf");
+}
+
 body {
 	font-family: "Bebas Kai";
 }
@@ -904,16 +910,16 @@ article:hover .title, article:hover .title p {
 }
 
 #aboutme {
-	background: #F0DEDE;
+	background: #FFAEB9;
 	color: #ffffff;
-	height: 700px;
+	height: 830px;
 	width: 100%;
 	padding-top: 100px;
 }
 
 #aboutme img {
 	float: left;
-	padding-top: 135px;
+	padding-top: 200px;
 	padding-left: 115px;
 }
 
@@ -927,18 +933,23 @@ article:hover .title, article:hover .title p {
 	padding-right: 150px;
 }
 
+#aboutme h2 {
+	font-family: "Cheddar Jack";
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-top: 30px;
+	font-size: 3em;
+	padding-left: 600px;
+	padding-right: 150px;
+}
+
 #aboutme p {
 	line-height: 1.5em;
 	font-family: "Oswald";
 	font-weight: 300;
 	text-align: left;
-	font-size: .85em;
+	font-size: 1em;
 	padding-left: 600px;
 	padding-right: 150px;
-}
-
-#resume img {
-	margin-top: 100px;
-	margin-left: 33.33%;
 }
 
