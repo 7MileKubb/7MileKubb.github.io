@@ -324,7 +324,7 @@ article:hover .title, article:hover .title p {
 }
 
 #EATSAobjectivebar {
-	height: 120px;
+	height: 115px;
 }
 
 #AAobjectivebar {
@@ -347,12 +347,8 @@ article:hover .title, article:hover .title p {
 	height: 225px;
 }
 
-#TRICYCLEobjectivebar {
-	height: 245px;
-}
-
 #FENCINGobjectivebar {
-	height: 245px;
+	height: 205px;
 }
 
 .spacingbar {
@@ -401,6 +397,22 @@ article:hover .title, article:hover .title p {
 }
 
 .opportunity p {
+	font-family: "Oswald";
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.opportunity2 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+
+.opportunity2 img {
+	float: right;
+}
+
+.opportunity2 p {
 	font-family: "Oswald";
 	font-weight: 300;
 	line-height: 25px;
