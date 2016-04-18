@@ -201,6 +201,13 @@ a {
 	padding-top: 10px;
 }
 
+#portsecrandom {
+	height: 600px; 
+	background-color: white;
+	padding-top: 300px;
+	text-align: center;
+}
+
 #portpieces {
 	margin-top: 100px;
 	padding-left: 10%;
