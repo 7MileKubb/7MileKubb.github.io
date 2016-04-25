@@ -104,6 +104,29 @@ a {
 	padding-right: 150px;
 }
 
+#summerinternship {
+	color: #ffffff;
+	padding-top: 260px;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#summerinternship h1 {
+	font-size: 4em;
+}
+
+#MILEKUBB {
+	color: #000000;
+	padding-top: 220px;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#MILEKUBB h1 {
+	font-size: 4em;
+}
 #homepagelogo {
 	float: left;
 	margin-top: 22px;
@@ -202,7 +225,7 @@ a {
 }
 
 #portsecrandom {
-	height: 600px; 
+	height: 400px; 
 	background-color: white;
 	padding-top: 300px;
 	text-align: center;
@@ -311,6 +334,17 @@ article:hover .title, article:hover .title p {
 	font-style: italic;
 }
 
+.objectiveheader2 {
+	width: 45%;
+	float: left;
+}
+
+.objectiveheader2 h3{
+	font-weight: 400;
+	font-size: 1em;
+	padding-top: 20px;
+}
+
 .objectiveoverview {
 	margin-top: 5px;
 	width: 40%;
@@ -362,6 +396,20 @@ article:hover .title, article:hover .title p {
 
 #FENCINGobjectivebar {
 	height: 205px;
+}
+
+#RANDOMobjectivebar {
+	height: 310px;
+	background-color: #ffffff;
+}
+
+#RANDOMobjectivebar h1 {
+	font-family: "Bebas Kai";
+}
+
+#RANDOMobjectivebar p {
+	font-family: "Oswald";
+	font-weight: 300;
 }
 
 .spacingbar {
